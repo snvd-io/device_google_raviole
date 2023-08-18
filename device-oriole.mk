@@ -162,7 +162,8 @@ DEVICE_MANIFEST_FILE += \
 PRODUCT_PRODUCT_PROPERTIES +=\
     ro.vendor.vibrator.hal.long.frequency.shift=15 \
     ro.vendor.vibrator.hal.device.mass=0.205 \
-    ro.vendor.vibrator.hal.loc.coeff=2.25
+    ro.vendor.vibrator.hal.loc.coeff=2.25 \
+    persist.vendor.vibrator.hal.chirp.enabled=0
 
 ACTUATOR_MODEL := luxshare_ict_081545
 
@@ -189,7 +190,7 @@ endif
 
 # Increment the SVN for any official public releases
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.build.svn=67
+    ro.vendor.build.svn=68
 
 # Set support hide display cutout feature
 PRODUCT_PRODUCT_PROPERTIES += \
