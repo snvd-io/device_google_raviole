@@ -17,10 +17,10 @@
 $(call inherit-product, device/google/gs101/aosp_common.mk)
 $(call inherit-product, device/google/raviole/device-oriole.mk)
 
-PRODUCT_NAME := aosp_oriole
+PRODUCT_NAME := oriole
 PRODUCT_DEVICE := oriole
-PRODUCT_MODEL := AOSP on Oriole
-PRODUCT_BRAND := Android
+PRODUCT_MODEL := Artemis
+PRODUCT_BRAND := SLEKE.
 PRODUCT_MANUFACTURER := Google
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor

@@ -330,3 +330,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.quick_start.device_id=oriole
 
 PRODUCT_VENDOR_PROPERTIES := $(filter-out ro.vendor.build.svn=% , $(PRODUCT_VENDOR_PROPERTIES))
+
+# Temporarily disable uses-library check
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
